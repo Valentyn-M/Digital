@@ -16,7 +16,7 @@ This project is a modern, responsive landing page designed to demonstrate the pr
 
 ## 🧩 Fully Component-Based Architecture
 
-The entire site is built from reusable, modular components — not just individual sections like Hero or Services, but also internal parts such as service items, review cards, language switcher, pricing plans, and more.
+The entire site is built from reusable, modular components — not just individual sections like Hero or Services, but also internal parts such as menu, language switcher, service items, review cards, pricing plans, and more.
 
 Each component is structured with its own `HTML`, `SCSS`, and optionally `JS`.
 
