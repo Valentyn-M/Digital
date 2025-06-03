@@ -676,8 +676,10 @@ body {
 }
 .contacts__title {
   font-weight: 900;
-  font-size: 6rem;
   line-height: 1.2;
+}
+[lang=ua] .contacts__title {
+  flex-basis: min-content;
 }
 .contacts__text {
   flex: 0 1 16.25rem;
@@ -795,6 +797,9 @@ body {
   .contacts__title {
     font-size: 6rem;
   }
+  [lang=ua] .contacts__title {
+    font-size: 5rem;
+  }
   .advantage {
     padding-inline: 2.5rem;
   }
@@ -840,6 +845,9 @@ body {
   }
   .contacts__title {
     font-size: 3rem;
+  }
+  [lang=ua] .contacts__title {
+    font-size: 2.25rem;
   }
   .advantage {
     padding-inline: 1.25rem;
@@ -1049,6 +1057,9 @@ body {
   .contacts__title {
     font-size: 3rem;
   }
+  [lang=ua] .contacts__title {
+    font-size: 3rem;
+  }
   .contacts__title, .contacts__text, .contacts__contacts-block {
     width: 100%;
     flex-grow: 1;
@@ -1205,6 +1216,9 @@ body {
   }
   .contacts__title {
     font-size: clamp( 3rem , 0.85704718960625rem  +  10.714764052vw , 6rem );
+  }
+  [lang=ua] .contacts__title {
+    font-size: clamp( 2.25rem , 0.285626590475rem  +  9.8218670476vw , 5rem );
   }
   .advantage {
     padding-inline: clamp( 1.25rem , 0.35710299566875rem  +  4.4644850217vw , 2.5rem );
@@ -1365,6 +1379,9 @@ body {
   }
   .contacts__title {
     font-size: clamp( 3rem , 0.19722147879375rem  +  5.8392739836vw , 6rem );
+  }
+  [lang=ua] .contacts__title {
+    font-size: clamp( 3rem , 1.1314809858625rem  +  3.8928493224vw , 5rem );
   }
   .advantage {
     padding-inline: clamp( 1.25rem , 0.0821756161625rem  +  2.4330308265vw , 2.5rem );
@@ -2234,6 +2251,9 @@ body {
   }
   .contacts__title {
     font-size: 6rem;
+  }
+  [lang=ua] .contacts__title {
+    font-size: 5rem;
   }
   .clients {
     padding-block-start: 5rem;
